@@ -1,0 +1,159 @@
+
+body{
+	background-color:#f4f4f4;
+	color:#555555;
+
+	font-family: arial, helvetica, sans-serif;
+	font-size:15px;
+	font-weight: normal;
+	/* same as above */
+	font:normal 15px arial, helvetica, sans-serif;
+
+	line-height: 20px;
+	margin:0;
+}
+
+a{
+	text-decoration: none;
+	color:#000;
+}
+
+a:hover{
+	color:red;
+}
+
+a:active{
+	color:blue;
+}
+
+a:visited{
+	color:green;
+}
+
+.container{
+	width: 80%;
+	margin:auto;
+}
+
+.button{
+	background-color: #333;
+	color:#fff;
+	padding:10px 15px;
+	border:none;
+}
+
+.button:hover{
+	background-color:red;
+	color:#fff;
+}
+
+.clr{
+	clear:both;
+}
+
+.box-1{
+	background-color: #333;
+	color:#fff;
+
+	border-right: 5px red solid;
+	border-left: 5px red solid;
+	border-top: 5px red solid;
+	border-bottom: 5px red solid;
+	/* same as above */
+	border: 5px red solid;
+
+	padding-top:20px;
+	padding-right:20px;
+	padding-bottom:20px;
+	padding-left:20px;
+
+	padding:20px;
+	padding:0px 20px;
+
+	margin-top:20px;
+}
+
+#heading-1{
+	font-family: tahoma;
+	font-weight: 800;
+	font-style:italic;
+	text-decoration: underline;
+	text-transform: uppercase;
+	letter-spacing: 7px;
+	word-spacing: 16px;
+}
+
+.box-2{
+	border: 3px dotted #ccc;
+	padding:20px;
+	margin:20px 0px;
+}
+
+.categories{
+	border: 1px #ccc solid;
+	padding:10px;
+	border-radius: 15px;
+}
+
+.categories h2{
+	text-align: center;
+}
+
+.categories ul{
+	padding:0px;
+	padding-left:20px;
+	list-style:square;
+	list-style:none;
+}
+
+.categories li{
+	padding-bottom:6px;
+	border-bottom:1px dotted #333;
+	list-style-image: url(../images/check.jpg)
+}
+
+.my-form{
+	padding:20px;
+}
+
+.my-form .form-group{
+	padding-bottom:15px;
+}
+
+.my-form label{
+	display:block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+	padding:8px;
+	width: 100%;
+}
+
+.block{
+	float:left;
+	width: 33.3%;
+	border: 1px solid #ccc;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+#main-block{
+	float:left;
+	width: 70%;
+	padding:15px;
+	box-sizing: border-box;
+}
+
+#slidbar{
+	float:right;
+	width: 30%;
+	background-color:#333;
+	color:#fff;
+	padding:15px;
+	box-sizing: border-box;
+}
+
+.fix-me{
+	position:fixed;
+	top:400px;
+}
